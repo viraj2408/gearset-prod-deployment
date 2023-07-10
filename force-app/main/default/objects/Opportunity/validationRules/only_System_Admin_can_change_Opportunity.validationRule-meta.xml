@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>only_System_Admin_can_change_Opportunity</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( 
+    NOT(ISPICKVAL( StageName , &quot;Prospecting&quot;))   
+    ,ISCHANGED( CloseDate )
+   )</errorConditionFormula>
+    <errorMessage>if stage is “Prospecting” then only System Admin can change Opportunity close date.</errorMessage>
+</ValidationRule>

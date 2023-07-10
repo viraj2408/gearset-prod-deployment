@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>record_owner_can_make_changes</fullName>
+    <active>true</active>
+    <errorConditionFormula>$User.Id  &lt;&gt;  Owner.Id</errorConditionFormula>
+    <errorMessage>only the record owner can make changes</errorMessage>
+</ValidationRule>
