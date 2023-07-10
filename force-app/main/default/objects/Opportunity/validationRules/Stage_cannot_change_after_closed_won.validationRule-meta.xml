@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stage_cannot_change_after_closed_won</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND( 
+ISPICKVAL(PRIORVALUE(StageName),&quot;Closed Won&quot;), 
+ISCHANGED(StageName) 
+)</errorConditionFormula>
+    <errorMessage>You cannot change stage field value when stage name is closed won</errorMessage>
+</ValidationRule>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Multiple_of_5</fullName>
+    <active>true</active>
+    <errorConditionFormula>MOD(Multiple_of_5__c ,5)  &lt;&gt; 0</errorConditionFormula>
+    <errorDisplayField>Multiple_of_5__c</errorDisplayField>
+    <errorMessage>Opportunity is not a multiple of five.</errorMessage>
+</ValidationRule>

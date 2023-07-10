@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Volume_between_rule_50</fullName>
+    <active>true</active>
+    <errorConditionFormula>50 &lt; Volume__c</errorConditionFormula>
+    <errorDisplayField>Volume__c</errorDisplayField>
+    <errorMessage>Volume on Opportunity should be between -50 and 50</errorMessage>
+</ValidationRule>

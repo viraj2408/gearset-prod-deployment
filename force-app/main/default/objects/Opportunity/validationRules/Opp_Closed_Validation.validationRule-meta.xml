@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opp_Closed_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( ISPICKVAL( Complaince_Review__c , &#39;No&#39;) ,
+   OR(ISPICKVAL(  StageName , &#39;Closed Won&#39;),
+        ISPICKVAL(  StageName , &#39;Closed Lost&#39;))  )</errorConditionFormula>
+    <errorMessage>Cannot close Opportunity as Complaince review is No</errorMessage>
+</ValidationRule>

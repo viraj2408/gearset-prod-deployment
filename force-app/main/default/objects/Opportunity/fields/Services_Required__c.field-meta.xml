@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Services_Required__c</fullName>
+    <externalId>false</externalId>
+    <label>Services Required</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>General maintenance</fullName>
+                <default>false</default>
+                <label>General maintenance</label>
+            </value>
+            <value>
+                <fullName>annual maintenance</fullName>
+                <default>false</default>
+                <label>annual maintenance</label>
+            </value>
+            <value>
+                <fullName>wheel alignment</fullName>
+                <default>false</default>
+                <label>wheel alignment</label>
+            </value>
+            <value>
+                <fullName>towing service</fullName>
+                <default>false</default>
+                <label>towing service</label>
+            </value>
+            <value>
+                <fullName>preventive maintenance</fullName>
+                <default>false</default>
+                <label>preventive maintenance</label>
+            </value>
+            <value>
+                <fullName>general repairs</fullName>
+                <default>false</default>
+                <label>general repairs</label>
+            </value>
+            <value>
+                <fullName>upgrades</fullName>
+                <default>false</default>
+                <label>upgrades</label>
+            </value>
+            <value>
+                <fullName>car body repair</fullName>
+                <default>false</default>
+                <label>car body repair</label>
+            </value>
+            <value>
+                <fullName>denting &amp; painting</fullName>
+                <default>false</default>
+                <label>denting &amp; painting</label>
+            </value>
+            <value>
+                <fullName>road side assistance</fullName>
+                <default>false</default>
+                <label>road side assistance</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>
